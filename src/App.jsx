@@ -16,7 +16,7 @@ import CartContextProvider from './Context/CartContext';
 import Cart from './components/Cart/Cart';
 import Payment from './components/Payment/Payment';
 import Wishlist from './components/Wishlist/Wishlist';
-import WishlistContextProvider from './Context/WishlistContext';
+import WishlistContextProvider from './Context/Wishlistcontext';
 import ForgetPassword from './components/forgetPassword/ForgetPassword';
 
 const router = createBrowserRouter([
