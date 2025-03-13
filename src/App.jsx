@@ -11,7 +11,7 @@ import Product from './components/product/Product';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import Brands from './components/brands/Brands';
 import Categories from './components/Categories/Categories';
-import ProductDetails from './components/productDetails/productDetails';
+import ProductDetails from './components/ProductDetails/ProductDetails';
 import CartContextProvider from './Context/CartContext';
 import Cart from './components/Cart/Cart';
 import Payment from './components/Payment/Payment';
