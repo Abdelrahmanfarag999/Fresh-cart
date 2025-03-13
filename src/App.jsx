@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout/Layout';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
@@ -19,7 +19,7 @@ import Wishlist from './components/Wishlist/Wishlist';
 import WishlistContextProvider from './Context/WishlistContext';
 import ForgetPassword from './components/forgetPassword/ForgetPassword';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '', element: <Layout />, children: [
       { path: 'register', element: <Register /> },
