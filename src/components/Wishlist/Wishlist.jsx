@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { cartContext } from '../../Context/CartContext'
-import { WishlistContext } from '../../Context/Wishlistcontext';
+import { WishlistContext } from '../../Context/WishlistContext';
 import emptyList from '../../assets/imgs/heart-love-marriage-27-svgrepo-com.svg'
 import toast from 'react-hot-toast';
 export default function Wishlist() {
