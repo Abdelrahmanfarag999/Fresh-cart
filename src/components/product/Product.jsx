@@ -5,7 +5,7 @@ import { useQuery } from 'react-query'
 import { Link } from 'react-router-dom'
 import { cartContext } from '../../Context/CartContext'
 import toast from 'react-hot-toast'
-import { WishlistContext } from '../../Context/WishlistContext'
+import { WishlistContext } from '../../Context/wishlistcontext'
 export default function Product() {
     const { addProductWishkist } = useContext(WishlistContext)
     function getAllProduct() {
