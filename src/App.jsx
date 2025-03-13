@@ -1,23 +1,24 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Layout from './commponants/Layout/Layout'
-import Register from './commponants/Register/Register'
-import Login from './commponants/Login/Login'
-import NotFound from './commponants/Notfound/NotFound'
-import AuthContext from './Context/AuthContext'
-import Home from './commponants/Home/Home'
-import ProtictedRoute from './commponants/ProtictedRoute/ProtictedRoute'
-import Product from './commponants/product/Product'
-import { QueryClient, QueryClientProvider } from 'react-query'
-import Brands from './commponants/brands/Brands'
-import Categories from './commponants/Categories/Categories'
-import ProductDetails from './commponants/productDetails/productDetails'
-import CartContextProvider from './Context/CartContext'
-import Cart from './commponants/Cart/Cart'
-import Payment from './commponants/Payment/Payment'
-import Wishlist from './commponants/Wishlist/Wishlist'
-import WishlistContextProvider from './Context/WishlistContext'
-import ForgetPassword from './commponants/forgetPassword/ForgetPassword'
+import Layout from './components/Layout/Layout';
+import Register from './components/Register/Register';
+import Login from './components/Login/Login';
+import NotFound from './components/Notfound/NotFound';
+import AuthContext from './Context/AuthContext';
+import Home from './components/Home/Home';
+import ProtictedRoute from './components/ProtictedRoute/ProtictedRoute';
+import Product from './components/product/Product';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import Brands from './components/brands/Brands';
+import Categories from './components/Categories/Categories';
+import ProductDetails from './components/productDetails/productDetails';
+import CartContextProvider from './Context/CartContext';
+import Cart from './components/Cart/Cart';
+import Payment from './components/Payment/Payment';
+import Wishlist from './components/Wishlist/Wishlist';
+import WishlistContextProvider from './Context/WishlistContext';
+import ForgetPassword from './components/forgetPassword/ForgetPassword';
+
 const router = createBrowserRouter([
   {
     path: '', element: <Layout />, children: [

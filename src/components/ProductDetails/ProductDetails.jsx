@@ -1,10 +1,8 @@
 import axios from 'axios';
-import { Button } from 'flowbite-react';
 import React from 'react'
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
 import Slider from "react-slick";
-import PageNotFound from '../Notfound/NotFound';
 import { RevolvingDot } from 'react-loader-spinner';
 import { useContext } from 'react';
 import { cartContext } from '../../Context/CartContext';
